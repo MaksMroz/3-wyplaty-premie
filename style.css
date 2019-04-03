@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin-top: 5px;
+}
+
+#tytul-pracownik, .pracownik {
+    display: inline-block;
+    width: 130px;
+}
+
+#tytul-czas, .czas {
+    display: inline-block;
+    width: 130px;
+}
+
+#tytul-stawka, .stawka {
+    display: inline-block;
+    width: 130px;
+}
+
+#tytul-wyplata, .wyplata {
+    display: inline-block;
+    width: 130px;
+}
+
+#tytul-pracownik,  #tytul-stawka, #tytul-czas, #tytul-wyplata {
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    margin: 20px 170px;
+    background-color: firebrick;
+    color: white;
+    padding: 20px 55px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
